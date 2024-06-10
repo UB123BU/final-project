@@ -8,3 +8,4 @@ public class Main {
         System.out.println("Twój wskaźnik BMI to: " + BMI);
     } else {
         System.out.println("Please provide wzrost and waga as arguments.");
+    }}}
