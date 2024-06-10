@@ -12,7 +12,7 @@ public class Main {
 
   private static void wyliczBMI(double wzrost, double waga)
   {
-    double BMI = wzrost / (waga * waga);
+    double BMI = waga / ((wzrost / 100) * (wzrost / 100));
     System.out.printf("Twój wskaźnik BMI to: %1$s \r\n", BMI);
   }
 }
