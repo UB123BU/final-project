@@ -7,4 +7,5 @@ public class Main {
         System.out.printf("Twój wskaźnik BMI to: %.2f", BMI);
     } else {
         System.out.println("Please provide wzrost and waga as arguments.");
+        System.out.printf("Twój wskaźnik BMI to: %.2f", BMI);
     }}}
