@@ -5,8 +5,8 @@ public class Main {
         double wzrost = Double.parseDouble(args[0]);
         double waga = Double.parseDouble(args[1]);
         BMI = waga / ((wzrost / 100) * (wzrost / 100));
-        System.out.printf("Twój wskaźnik BMI to: %.2f", BMI);
+        System.out.printf("Twój wskaźnik BMI to:", BMI);
     } else {
         System.out.println("Please provide wzrost and waga as arguments.");
-        System.out.printf("Twój wskaźnik BMI to: %.2f", BMI);
+        System.out.printf("Twój wskaźnik BMI to:", BMI);
     }}}
