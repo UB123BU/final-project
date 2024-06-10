@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Main {
   public static void main(String[] args) {
@@ -17,8 +19,6 @@ public class Main {
   }
 }
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 class BMICalculatorTest {
     @Test
     void testCalculateBMI_1() {
